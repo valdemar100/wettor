@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/wp",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/wp/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/wp/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
